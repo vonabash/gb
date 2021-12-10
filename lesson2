@@ -1,10 +1,13 @@
-    public static boolean doTask1(int a, int b) {
+   Задание 1
+  
+  public static boolean doTask1(int a, int b) {
         int sum = a + b;
         if (sum >= 10 && sum <=20) {
             return true;
         }
         return false;
     }
+   Задание 2
 
     public static void doTask2(int x) {
         if (x >= 0) {
@@ -15,7 +18,9 @@
         }
     }
 
-    public static boolean doTask3(int x) {
+   Задание 3
+   
+   public static boolean doTask3(int x) {
         if (x >= 0) {
             return true;
         }
@@ -24,12 +29,16 @@
         }
     }
 
+    Задание 4
+    
     public static void doTask4(String str, int n) {
         for (int i = 1; i <= n; i++) {
             System.out.println("[" + i + "]" + " " + str);
         }
     }
 
+    Задание 5
+    
     public static boolean doTask5(int year) {
         if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
             return true;
